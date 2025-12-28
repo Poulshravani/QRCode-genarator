@@ -1,9 +1,0 @@
-import qrcode
-
-Github_url = f'https://github.com/Poulshravani'
-
-Github_qr = qrcode.make(Github_url)
-
-Github_qr.save('Github_qr_png')
-
-Github_qr.show()
