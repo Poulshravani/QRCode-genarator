@@ -1,0 +1,9 @@
+import qrcode
+
+linkedin_url = f'https://linkedin.com/in/shravanipoul'
+
+linkedin_qr = qrcode.make(linkedin_url)
+
+linkedin_qr.save('linkedin_qr_png')
+
+linkedin_qr.show()
